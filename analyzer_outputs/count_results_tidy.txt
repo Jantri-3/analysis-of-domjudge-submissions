@@ -1,0 +1,110 @@
+altera-id-dependent-backward-branch: {'AC': 451, 'NO': 7, 'OLE': 2, 'RTE': 73, 'TLE': 82, 'WA': 276}
+altera-struct-pack-align: {'AC': 321, 'NO': 2, 'RTE': 70, 'TLE': 95, 'WA': 292}
+altera-unroll-loops: {'AC': 961, 'NO': 8, 'OLE': 2, 'RTE': 168, 'TLE': 238, 'WA': 646}
+bugprone-branch-clone: {'AC': 21, 'RTE': 16, 'TLE': 7, 'WA': 12}
+bugprone-easily-swappable-parameters: {'AC': 129, 'OLE': 1, 'RTE': 23, 'TLE': 45, 'WA': 87}
+bugprone-exception-escape: {'AC': 319, 'NO': 1, 'RTE': 43, 'TLE': 107, 'WA': 232}
+bugprone-implicit-widening-of-multiplication-result: {'AC': 4, 'WA': 1}
+bugprone-infinite-loop: {'RTE': 1, 'TLE': 1}
+bugprone-integer-division: {'AC': 3, 'TLE': 2, 'WA': 16}
+bugprone-narrowing-conversions: {'AC': 243, 'NO': 2, 'OLE': 2, 'RTE': 75, 'TLE': 35, 'WA': 124}
+bugprone-reserved-identifier: {'AC': 80, 'RTE': 1, 'WA': 47}
+bugprone-suspicious-semicolon: {'AC': 14, 'NO': 1, 'RTE': 4, 'TLE': 4, 'WA': 15}
+bugprone-switch-missing-default-case: {'AC': 28, 'RTE': 2, 'WA': 2}
+bugprone-unused-raii: {'AC': 1, 'RTE': 3, 'TLE': 3, 'WA': 1}
+cert-dcl21-cpp: {'AC': 1, 'NO': 1, 'RTE': 4}
+cert-env33-c: {'AC': 886, 'NO': 8, 'OLE': 2, 'RTE': 163, 'TLE': 226, 'WA': 616}
+cert-err58-cpp: {'AC': 13, 'RTE': 8, 'TLE': 1, 'WA': 12}
+clang-analyzer-cplusplus.NewDelete: {'AC': 13, 'WA': 14}
+clang-analyzer-deadcode.DeadStores: {'AC': 22, 'NO': 1, 'RTE': 4, 'TLE': 14, 'WA': 16}
+clang-analyzer-optin.cplusplus.UninitializedObject: {'RTE': 1}
+clang-diagnostic-braced-scalar-init: {'AC': 1}
+clang-diagnostic-c++11-narrowing: {'AC': 5, 'WA': 1}
+clang-diagnostic-constant-conversion: {'AC': 2, 'TLE': 1, 'WA': 1}
+clang-diagnostic-dangling-else: {'AC': 3, 'RTE': 1, 'TLE': 1, 'WA': 5}
+clang-diagnostic-empty-body: {'AC': 23, 'NO': 1, 'RTE': 6, 'TLE': 4, 'WA': 28}
+clang-diagnostic-error: {'AC': 52, 'RTE': 5, 'TLE': 9, 'WA': 25}
+clang-diagnostic-extra-tokens: {'AC': 7, 'TLE': 2, 'WA': 2}
+clang-diagnostic-logical-not-parentheses: {'TLE': 1}
+clang-diagnostic-missing-declarations: {'AC': 11, 'WA': 11}
+clang-diagnostic-parentheses-equality: {'WA': 5}
+clang-diagnostic-pragma-once-outside-header: {'AC': 1}
+clang-diagnostic-return-type: {'AC': 35, 'RTE': 7, 'TLE': 12, 'WA': 6}
+clang-diagnostic-string-plus-int: {'RTE': 1}
+clang-diagnostic-tautological-compare: {'RTE': 1, 'TLE': 8, 'WA': 5}
+clang-diagnostic-uninitialized: {'RTE': 2}
+clang-diagnostic-unsequenced: {'RTE': 1}
+clang-diagnostic-unused-result: {'AC': 1, 'RTE': 1}
+clang-diagnostic-unused-value: {'TLE': 1, 'WA': 2}
+clang-diagnostic-vexing-parse: {'WA': 1}
+concurrency-mt-unsafe: {'AC': 886, 'NO': 8, 'OLE': 2, 'RTE': 163, 'TLE': 226, 'WA': 616}
+cppcoreguidelines-avoid-c-arrays: {'AC': 3, 'RTE': 3, 'TLE': 1, 'WA': 8}
+cppcoreguidelines-avoid-const-or-ref-data-members: {'AC': 56, 'NO': 1, 'RTE': 10, 'TLE': 25, 'WA': 19}
+cppcoreguidelines-avoid-magic-numbers: {'AC': 38, 'RTE': 6, 'TLE': 22, 'WA': 52}
+cppcoreguidelines-avoid-non-const-global-variables: {'AC': 6, 'RTE': 3, 'WA': 1}
+cppcoreguidelines-init-variables: {'AC': 854, 'NO': 8, 'OLE': 1, 'RTE': 150, 'TLE': 219, 'WA': 611}
+cppcoreguidelines-macro-usage: {'AC': 15, 'RTE': 3, 'TLE': 3, 'WA': 15}
+cppcoreguidelines-non-private-member-variables-in-classes: {'AC': 26, 'RTE': 3, 'TLE': 7, 'WA': 12}
+cppcoreguidelines-prefer-member-initializer: {'AC': 17, 'RTE': 2, 'TLE': 6, 'WA': 19}
+cppcoreguidelines-pro-bounds-constant-array-index: {'AC': 2, 'RTE': 3, 'TLE': 1, 'WA': 4}
+cppcoreguidelines-pro-bounds-pointer-arithmetic: {'RTE': 1}
+cppcoreguidelines-pro-type-member-init: {'AC': 113, 'RTE': 38, 'TLE': 28, 'WA': 98}
+cppcoreguidelines-use-default-member-init: {'AC': 146, 'NO': 1, 'RTE': 26, 'TLE': 23, 'WA': 59}
+fuchsia-default-arguments-calls: {'AC': 946, 'NO': 8, 'OLE': 2, 'RTE': 167, 'TLE': 237, 'WA': 627}
+fuchsia-default-arguments-declarations: {'AC': 1, 'TLE': 1, 'WA': 1}
+fuchsia-overloaded-operator: {'AC': 224, 'NO': 2, 'RTE': 17, 'TLE': 80, 'WA': 214}
+fuchsia-statically-constructed-objects: {'AC': 13, 'RTE': 8, 'TLE': 1, 'WA': 12}
+google-build-using-namespace: {'AC': 959, 'NO': 8, 'OLE': 2, 'RTE': 167, 'TLE': 238, 'WA': 646}
+google-explicit-constructor: {'AC': 130, 'NO': 2, 'RTE': 15, 'TLE': 4, 'WA': 53}
+google-readability-braces-around-statements: {'AC': 923, 'NO': 8, 'OLE': 2, 'RTE': 149, 'TLE': 212, 'WA': 617}
+google-readability-casting: {'AC': 40, 'WA': 21}
+google-runtime-int: {'AC': 72, 'OLE': 1, 'RTE': 32, 'TLE': 29, 'WA': 84}
+hicpp-braces-around-statements: {'AC': 867, 'NO': 7, 'OLE': 2, 'RTE': 139, 'TLE': 207, 'WA': 552}
+hicpp-deprecated-headers: {'RTE': 3}
+hicpp-multiway-paths-covered: {'AC': 28, 'RTE': 2, 'WA': 2}
+hicpp-use-auto: {'TLE': 1, 'WA': 2}
+hicpp-use-emplace: {'AC': 25, 'RTE': 2, 'TLE': 4, 'WA': 18}
+llvm-else-after-return: {'AC': 154, 'NO': 1, 'RTE': 39, 'TLE': 27, 'WA': 96}
+llvm-include-order: {'AC': 957, 'NO': 8, 'OLE': 2, 'RTE': 168, 'TLE': 238, 'WA': 646}
+llvm-qualified-auto: {'AC': 889, 'NO': 8, 'OLE': 2, 'RTE': 163, 'TLE': 229, 'WA': 616}
+llvmlibc-callee-namespace: {'AC': 961, 'NO': 8, 'OLE': 2, 'RTE': 168, 'TLE': 238, 'WA': 646}
+llvmlibc-implementation-in-namespace: {'AC': 961, 'NO': 9, 'OLE': 2, 'RTE': 168, 'TLE': 238, 'WA': 646}
+llvmlibc-restrict-system-libc-headers: {'AC': 961, 'NO': 8, 'OLE': 2, 'RTE': 168, 'TLE': 238, 'WA': 646}
+misc-const-correctness: {'AC': 941, 'NO': 8, 'OLE': 2, 'RTE': 167, 'TLE': 237, 'WA': 633}
+misc-include-cleaner: {'AC': 961, 'NO': 8, 'OLE': 2, 'RTE': 168, 'TLE': 238, 'WA': 646}
+misc-no-recursion: {'AC': 159, 'NO': 3, 'OLE': 1, 'RTE': 63, 'TLE': 66, 'WA': 115}
+misc-non-private-member-variables-in-classes: {'AC': 53, 'NO': 1, 'RTE': 14, 'TLE': 8, 'WA': 31}
+misc-redundant-expression: {'RTE': 1, 'TLE': 8, 'WA': 5}
+misc-unused-parameters: {'AC': 10, 'RTE': 5, 'TLE': 4, 'WA': 11}
+modernize-loop-convert: {'AC': 104, 'RTE': 17, 'TLE': 15, 'WA': 48}
+modernize-macro-to-enum: {'AC': 7, 'RTE': 3, 'WA': 11}
+modernize-pass-by-value: {'AC': 11, 'NO': 1, 'RTE': 8, 'TLE': 3, 'WA': 1}
+modernize-return-braced-init-list: {'AC': 2, 'RTE': 19, 'WA': 4}
+modernize-use-bool-literals: {'AC': 2, 'WA': 3}
+modernize-use-nodiscard: {'AC': 155, 'NO': 3, 'RTE': 20, 'TLE': 37, 'WA': 99}
+modernize-use-trailing-return-type: {'AC': 961, 'NO': 9, 'OLE': 2, 'RTE': 168, 'TLE': 238, 'WA': 646}
+modernize-use-transparent-functors: {'AC': 71, 'RTE': 4, 'TLE': 17, 'WA': 31}
+modernize-use-using: {'AC': 27, 'RTE': 5, 'TLE': 4, 'WA': 31}
+performance-avoid-endl: {'AC': 243, 'NO': 1, 'RTE': 53, 'TLE': 93, 'WA': 174}
+performance-for-range-copy: {'AC': 55, 'OLE': 1, 'RTE': 6, 'TLE': 25, 'WA': 30}
+performance-inefficient-string-concatenation: {'AC': 4, 'WA': 3}
+performance-inefficient-vector-operation: {'AC': 1}
+performance-unnecessary-copy-initialization: {'AC': 3, 'WA': 1}
+performance-unnecessary-value-param: {'AC': 37, 'RTE': 7, 'TLE': 9, 'WA': 25}
+readability-container-size-empty: {'AC': 21, 'RTE': 4, 'WA': 16}
+readability-convert-member-functions-to-static: {'AC': 1, 'RTE': 3, 'TLE': 3}
+readability-duplicate-include: {'AC': 9, 'RTE': 4, 'TLE': 1, 'WA': 2}
+readability-else-after-return: {'AC': 1}
+readability-function-cognitive-complexity: {'AC': 6, 'RTE': 15, 'TLE': 7, 'WA': 24}
+readability-identifier-length: {'AC': 955, 'NO': 8, 'OLE': 2, 'RTE': 168, 'TLE': 238, 'WA': 639}
+readability-implicit-bool-conversion: {'AC': 57, 'RTE': 7, 'TLE': 43, 'WA': 49}
+readability-isolate-declaration: {'AC': 830, 'NO': 7, 'OLE': 1, 'RTE': 151, 'TLE': 206, 'WA': 560}
+readability-make-member-function-const: {'AC': 71, 'NO': 1, 'RTE': 18, 'TLE': 17, 'WA': 27}
+readability-misleading-indentation: {'AC': 11, 'RTE': 7, 'TLE': 3, 'WA': 12}
+readability-qualified-auto: {'TLE': 1}
+readability-redundant-member-init: {'AC': 1}
+readability-redundant-string-init: {'AC': 4, 'WA': 3}
+readability-simplify-boolean-expr: {'AC': 32, 'NO': 1, 'RTE': 5, 'TLE': 7, 'WA': 17}
+readability-static-accessed-through-instance: {'AC': 6, 'WA': 4}
+readability-suspicious-call-argument: {'AC': 1, 'TLE': 1, 'WA': 1}
+readability-use-anyofallof: {'AC': 1, 'RTE': 3}

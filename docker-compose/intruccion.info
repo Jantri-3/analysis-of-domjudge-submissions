@@ -1,0 +1,24 @@
+Esta pensado para ser usado desde WSL2
+Estoy usando Ubuntu 22.04.3, deberia funcionar con otras versiones independientemente
+
+Descargar Docker Desktop para Windows:
+https://www.docker.com/products/docker-desktop/
+la version de Docker desktop que estoy usando es la 4.24.0, que deberia de tener la version 24.0.6 de Docker
+es importante no descargar la ultima, porque no funciona bien para lo que queremos (shit happens)
+
+Hacer que Docker desktop funcione con WSL2
+(no se si es necesario, pero es comodo):
+https://docs.docker.com/desktop/wsl/
+
+Ultimo paso importante, tener cgroupv1 enabled en WSL:
+https://www.domjudge.org/snapshot/manual/install-judgehost.html#linux-control-groups
+Os dejo mi linea:
+GRUB_CMDLINE_LINUX_DEFAULT="quiet cgroup_enable=memory swapaccount=1 isolcpus=2 systemd.unified_cgroup_hierarchy=0"
+
+
+Pasos para crear contenedores:
+1) Estar en el directorio con los archivos del compose
+2) Ejecutar "./compose.sh"
+Deberia de hacerlo todo por vosotros.
+Al terminar de ejecutarse, outputea el user y contraseña para acceder al domserver como admin
+A partir de este punto deberia de ser al fun and games :)

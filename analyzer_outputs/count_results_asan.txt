@@ -1,0 +1,8 @@
+SEGV: {'RTE': 191, 'TLE': 1, 'WA': 27}
+detected memory leaks: {'AC': 2, 'NO': 5, 'WA': 1}
+global-buffer-overflow: {'RTE': 1, 'WA': 2}
+heap-buffer-overflow: {'AC': 18, 'NO': 1, 'RTE': 114, 'TLE': 17, 'WA': 77}
+heap-use-after-free: {'RTE': 1, 'WA': 1}
+stack-overflow: {'AC': 11, 'RTE': 21, 'TLE': 26, 'WA': 12}
+stack-use-after-return: {'RTE': 16, 'WA': 8}
+total by test: Counter({'RTE': 344, 'WA': 128, 'TLE': 44, 'AC': 31, 'NO': 6})total by sub: Counter({'RTE': 132, 'WA': 37, 'TLE': 30, 'AC': 12, 'NO': 1})

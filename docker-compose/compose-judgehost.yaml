@@ -1,0 +1,14 @@
+---
+version: "3"
+
+services:
+  judgehost:
+    image: robuso02/judgehost:8.2.4
+    container_name: judgehost-8.2.4
+    hostname: judgedaemon-0
+    environment:
+      DAEMON_ID: "0"
+      JUDGEDAEMON_PASSWORD: ${JUDGEDAEMON_PASSWORD}
+    privileged: true
+    volumes:
+      - /sys/fs/cgroup:/sys/fs/cgroup:ro

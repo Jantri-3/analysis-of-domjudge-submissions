@@ -1,0 +1,32 @@
+---
+version: "3"
+
+services:
+  dj-mariadb-8.2.4:
+    image: docker.io/mariadb
+    container_name: dj-mariadb-8.2.4
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpw
+      MYSQL_USER: domjudge
+      MYSQL_PASSWORD: djpw
+      MYSQL_DATABASE: domjudge
+    ports:
+      - "13306:3306"
+    command: [ "--max-connections=1000" ]
+
+  domserver:
+    image: robuso02/domserver:8.2.4
+    container_name: domserver-8.2.4
+    depends_on:
+      - dj-mariadb-8.2.4
+    environment:
+      MYSQL_HOST: mariadb
+      MYSQL_USER: domjudge
+      MYSQL_PASSWORD: djpw
+      MYSQL_ROOT_PASSWORD: rootpw
+      MYSQL_DATABASE: domjudge
+    ports:
+      - "12345:80"
+    links:
+      - "dj-mariadb-8.2.4:mariadb"
+      

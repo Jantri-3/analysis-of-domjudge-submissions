@@ -1,0 +1,110 @@
+altera-id-dependent-backward-branch: {'AC': '50.62%', 'NO': '0.79%', 'OLE': '0.22%', 'RTE': '8.19%', 'TLE': '9.2%', 'WA': '30.98%'}
+altera-struct-pack-align: {'AC': '41.15%', 'NO': '0.26%', 'RTE': '8.97%', 'TLE': '12.18%', 'WA': '37.44%'}
+altera-unroll-loops: {'AC': '47.5%', 'NO': '0.4%', 'OLE': '0.1%', 'RTE': '8.3%', 'TLE': '11.76%', 'WA': '31.93%'}
+bugprone-branch-clone: {'AC': '37.5%', 'RTE': '28.57%', 'TLE': '12.5%', 'WA': '21.43%'}
+bugprone-easily-swappable-parameters: {'AC': '45.26%', 'OLE': '0.35%', 'RTE': '8.07%', 'TLE': '15.79%', 'WA': '30.53%'}
+bugprone-exception-escape: {'AC': '45.44%', 'NO': '0.14%', 'RTE': '6.13%', 'TLE': '15.24%', 'WA': '33.05%'}
+bugprone-implicit-widening-of-multiplication-result: {'AC': '80.0%', 'WA': '20.0%'}
+bugprone-infinite-loop: {'RTE': '50.0%', 'TLE': '50.0%'}
+bugprone-integer-division: {'AC': '14.29%', 'TLE': '9.52%', 'WA': '76.19%'}
+bugprone-narrowing-conversions: {'AC': '50.52%', 'NO': '0.42%', 'OLE': '0.42%', 'RTE': '15.59%', 'TLE': '7.28%', 'WA': '25.78%'}
+bugprone-reserved-identifier: {'AC': '62.5%', 'RTE': '0.78%', 'WA': '36.72%'}
+bugprone-suspicious-semicolon: {'AC': '36.84%', 'NO': '2.63%', 'RTE': '10.53%', 'TLE': '10.53%', 'WA': '39.47%'}
+bugprone-switch-missing-default-case: {'AC': '87.5%', 'RTE': '6.25%', 'WA': '6.25%'}
+bugprone-unused-raii: {'AC': '12.5%', 'RTE': '37.5%', 'TLE': '37.5%', 'WA': '12.5%'}
+cert-dcl21-cpp: {'AC': '16.67%', 'NO': '16.67%', 'RTE': '66.67%'}
+cert-env33-c: {'AC': '46.61%', 'NO': '0.42%', 'OLE': '0.11%', 'RTE': '8.57%', 'TLE': '11.89%', 'WA': '32.4%'}
+cert-err58-cpp: {'AC': '38.24%', 'RTE': '23.53%', 'TLE': '2.94%', 'WA': '35.29%'}
+clang-analyzer-cplusplus.NewDelete: {'AC': '48.15%', 'WA': '51.85%'}
+clang-analyzer-deadcode.DeadStores: {'AC': '38.6%', 'NO': '1.75%', 'RTE': '7.02%', 'TLE': '24.56%', 'WA': '28.07%'}
+clang-analyzer-optin.cplusplus.UninitializedObject: {'RTE': '100.0%'}
+clang-diagnostic-braced-scalar-init: {'AC': '100.0%'}
+clang-diagnostic-c++11-narrowing: {'AC': '83.33%', 'WA': '16.67%'}
+clang-diagnostic-constant-conversion: {'AC': '50.0%', 'TLE': '25.0%', 'WA': '25.0%'}
+clang-diagnostic-dangling-else: {'AC': '30.0%', 'RTE': '10.0%', 'TLE': '10.0%', 'WA': '50.0%'}
+clang-diagnostic-empty-body: {'AC': '37.1%', 'NO': '1.61%', 'RTE': '9.68%', 'TLE': '6.45%', 'WA': '45.16%'}
+clang-diagnostic-error: {'AC': '57.14%', 'RTE': '5.49%', 'TLE': '9.89%', 'WA': '27.47%'}
+clang-diagnostic-extra-tokens: {'AC': '63.64%', 'TLE': '18.18%', 'WA': '18.18%'}
+clang-diagnostic-logical-not-parentheses: {'TLE': '100.0%'}
+clang-diagnostic-missing-declarations: {'AC': '50.0%', 'WA': '50.0%'}
+clang-diagnostic-parentheses-equality: {'WA': '100.0%'}
+clang-diagnostic-pragma-once-outside-header: {'AC': '100.0%'}
+clang-diagnostic-return-type: {'AC': '58.33%', 'RTE': '11.67%', 'TLE': '20.0%', 'WA': '10.0%'}
+clang-diagnostic-string-plus-int: {'RTE': '100.0%'}
+clang-diagnostic-tautological-compare: {'RTE': '7.14%', 'TLE': '57.14%', 'WA': '35.71%'}
+clang-diagnostic-uninitialized: {'RTE': '100.0%'}
+clang-diagnostic-unsequenced: {'RTE': '100.0%'}
+clang-diagnostic-unused-result: {'AC': '50.0%', 'RTE': '50.0%'}
+clang-diagnostic-unused-value: {'TLE': '33.33%', 'WA': '66.67%'}
+clang-diagnostic-vexing-parse: {'WA': '100.0%'}
+concurrency-mt-unsafe: {'AC': '46.61%', 'NO': '0.42%', 'OLE': '0.11%', 'RTE': '8.57%', 'TLE': '11.89%', 'WA': '32.4%'}
+cppcoreguidelines-avoid-c-arrays: {'AC': '20.0%', 'RTE': '20.0%', 'TLE': '6.67%', 'WA': '53.33%'}
+cppcoreguidelines-avoid-const-or-ref-data-members: {'AC': '50.45%', 'NO': '0.9%', 'RTE': '9.01%', 'TLE': '22.52%', 'WA': '17.12%'}
+cppcoreguidelines-avoid-magic-numbers: {'AC': '32.2%', 'RTE': '5.08%', 'TLE': '18.64%', 'WA': '44.07%'}
+cppcoreguidelines-avoid-non-const-global-variables: {'AC': '60.0%', 'RTE': '30.0%', 'WA': '10.0%'}
+cppcoreguidelines-init-variables: {'AC': '46.34%', 'NO': '0.43%', 'OLE': '0.05%', 'RTE': '8.14%', 'TLE': '11.88%', 'WA': '33.15%'}
+cppcoreguidelines-macro-usage: {'AC': '41.67%', 'RTE': '8.33%', 'TLE': '8.33%', 'WA': '41.67%'}
+cppcoreguidelines-non-private-member-variables-in-classes: {'AC': '54.17%', 'RTE': '6.25%', 'TLE': '14.58%', 'WA': '25.0%'}
+cppcoreguidelines-prefer-member-initializer: {'AC': '38.64%', 'RTE': '4.55%', 'TLE': '13.64%', 'WA': '43.18%'}
+cppcoreguidelines-pro-bounds-constant-array-index: {'AC': '20.0%', 'RTE': '30.0%', 'TLE': '10.0%', 'WA': '40.0%'}
+cppcoreguidelines-pro-bounds-pointer-arithmetic: {'RTE': '100.0%'}
+cppcoreguidelines-pro-type-member-init: {'AC': '40.79%', 'RTE': '13.72%', 'TLE': '10.11%', 'WA': '35.38%'}
+cppcoreguidelines-use-default-member-init: {'AC': '57.25%', 'NO': '0.39%', 'RTE': '10.2%', 'TLE': '9.02%', 'WA': '23.14%'}
+fuchsia-default-arguments-calls: {'AC': '47.61%', 'NO': '0.4%', 'OLE': '0.1%', 'RTE': '8.4%', 'TLE': '11.93%', 'WA': '31.56%'}
+fuchsia-default-arguments-declarations: {'AC': '33.33%', 'TLE': '33.33%', 'WA': '33.33%'}
+fuchsia-overloaded-operator: {'AC': '41.71%', 'NO': '0.37%', 'RTE': '3.17%', 'TLE': '14.9%', 'WA': '39.85%'}
+fuchsia-statically-constructed-objects: {'AC': '38.24%', 'RTE': '23.53%', 'TLE': '2.94%', 'WA': '35.29%'}
+google-build-using-namespace: {'AC': '47.48%', 'NO': '0.4%', 'OLE': '0.1%', 'RTE': '8.27%', 'TLE': '11.78%', 'WA': '31.98%'}
+google-explicit-constructor: {'AC': '63.73%', 'NO': '0.98%', 'RTE': '7.35%', 'TLE': '1.96%', 'WA': '25.98%'}
+google-readability-braces-around-statements: {'AC': '48.3%', 'NO': '0.42%', 'OLE': '0.1%', 'RTE': '7.8%', 'TLE': '11.09%', 'WA': '32.29%'}
+google-readability-casting: {'AC': '65.57%', 'WA': '34.43%'}
+google-runtime-int: {'AC': '33.03%', 'OLE': '0.46%', 'RTE': '14.68%', 'TLE': '13.3%', 'WA': '38.53%'}
+hicpp-braces-around-statements: {'AC': '48.87%', 'NO': '0.39%', 'OLE': '0.11%', 'RTE': '7.84%', 'TLE': '11.67%', 'WA': '31.12%'}
+hicpp-deprecated-headers: {'RTE': '100.0%'}
+hicpp-multiway-paths-covered: {'AC': '87.5%', 'RTE': '6.25%', 'WA': '6.25%'}
+hicpp-use-auto: {'TLE': '33.33%', 'WA': '66.67%'}
+hicpp-use-emplace: {'AC': '51.02%', 'RTE': '4.08%', 'TLE': '8.16%', 'WA': '36.73%'}
+llvm-else-after-return: {'AC': '48.58%', 'NO': '0.32%', 'RTE': '12.3%', 'TLE': '8.52%', 'WA': '30.28%'}
+llvm-include-order: {'AC': '47.4%', 'NO': '0.4%', 'OLE': '0.1%', 'RTE': '8.32%', 'TLE': '11.79%', 'WA': '32.0%'}
+llvm-qualified-auto: {'AC': '46.62%', 'NO': '0.42%', 'OLE': '0.1%', 'RTE': '8.55%', 'TLE': '12.01%', 'WA': '32.3%'}
+llvmlibc-callee-namespace: {'AC': '47.5%', 'NO': '0.4%', 'OLE': '0.1%', 'RTE': '8.3%', 'TLE': '11.76%', 'WA': '31.93%'}
+llvmlibc-implementation-in-namespace: {'AC': '47.48%', 'NO': '0.44%', 'OLE': '0.1%', 'RTE': '8.3%', 'TLE': '11.76%', 'WA': '31.92%'}
+llvmlibc-restrict-system-libc-headers: {'AC': '47.5%', 'NO': '0.4%', 'OLE': '0.1%', 'RTE': '8.3%', 'TLE': '11.76%', 'WA': '31.93%'}
+misc-const-correctness: {'AC': '47.33%', 'NO': '0.4%', 'OLE': '0.1%', 'RTE': '8.4%', 'TLE': '11.92%', 'WA': '31.84%'}
+misc-include-cleaner: {'AC': '47.5%', 'NO': '0.4%', 'OLE': '0.1%', 'RTE': '8.3%', 'TLE': '11.76%', 'WA': '31.93%'}
+misc-no-recursion: {'AC': '39.07%', 'NO': '0.74%', 'OLE': '0.25%', 'RTE': '15.48%', 'TLE': '16.22%', 'WA': '28.26%'}
+misc-non-private-member-variables-in-classes: {'AC': '49.53%', 'NO': '0.93%', 'RTE': '13.08%', 'TLE': '7.48%', 'WA': '28.97%'}
+misc-redundant-expression: {'RTE': '7.14%', 'TLE': '57.14%', 'WA': '35.71%'}
+misc-unused-parameters: {'AC': '33.33%', 'RTE': '16.67%', 'TLE': '13.33%', 'WA': '36.67%'}
+modernize-loop-convert: {'AC': '56.52%', 'RTE': '9.24%', 'TLE': '8.15%', 'WA': '26.09%'}
+modernize-macro-to-enum: {'AC': '33.33%', 'RTE': '14.29%', 'WA': '52.38%'}
+modernize-pass-by-value: {'AC': '45.83%', 'NO': '4.17%', 'RTE': '33.33%', 'TLE': '12.5%', 'WA': '4.17%'}
+modernize-return-braced-init-list: {'AC': '8.0%', 'RTE': '76.0%', 'WA': '16.0%'}
+modernize-use-bool-literals: {'AC': '40.0%', 'WA': '60.0%'}
+modernize-use-nodiscard: {'AC': '49.36%', 'NO': '0.96%', 'RTE': '6.37%', 'TLE': '11.78%', 'WA': '31.53%'}
+modernize-use-trailing-return-type: {'AC': '47.48%', 'NO': '0.44%', 'OLE': '0.1%', 'RTE': '8.3%', 'TLE': '11.76%', 'WA': '31.92%'}
+modernize-use-transparent-functors: {'AC': '57.72%', 'RTE': '3.25%', 'TLE': '13.82%', 'WA': '25.2%'}
+modernize-use-using: {'AC': '40.3%', 'RTE': '7.46%', 'TLE': '5.97%', 'WA': '46.27%'}
+performance-avoid-endl: {'AC': '43.09%', 'NO': '0.18%', 'RTE': '9.4%', 'TLE': '16.49%', 'WA': '30.85%'}
+performance-for-range-copy: {'AC': '47.01%', 'OLE': '0.85%', 'RTE': '5.13%', 'TLE': '21.37%', 'WA': '25.64%'}
+performance-inefficient-string-concatenation: {'AC': '57.14%', 'WA': '42.86%'}
+performance-inefficient-vector-operation: {'AC': '100.0%'}
+performance-unnecessary-copy-initialization: {'AC': '75.0%', 'WA': '25.0%'}
+performance-unnecessary-value-param: {'AC': '47.44%', 'RTE': '8.97%', 'TLE': '11.54%', 'WA': '32.05%'}
+readability-container-size-empty: {'AC': '51.22%', 'RTE': '9.76%', 'WA': '39.02%'}
+readability-convert-member-functions-to-static: {'AC': '14.29%', 'RTE': '42.86%', 'TLE': '42.86%'}
+readability-duplicate-include: {'AC': '56.25%', 'RTE': '25.0%', 'TLE': '6.25%', 'WA': '12.5%'}
+readability-else-after-return: {'AC': '100.0%'}
+readability-function-cognitive-complexity: {'AC': '11.54%', 'RTE': '28.85%', 'TLE': '13.46%', 'WA': '46.15%'}
+readability-identifier-length: {'AC': '47.51%', 'NO': '0.4%', 'OLE': '0.1%', 'RTE': '8.36%', 'TLE': '11.84%', 'WA': '31.79%'}
+readability-implicit-bool-conversion: {'AC': '36.54%', 'RTE': '4.49%', 'TLE': '27.56%', 'WA': '31.41%'}
+readability-isolate-declaration: {'AC': '47.29%', 'NO': '0.4%', 'OLE': '0.06%', 'RTE': '8.6%', 'TLE': '11.74%', 'WA': '31.91%'}
+readability-make-member-function-const: {'AC': '52.99%', 'NO': '0.75%', 'RTE': '13.43%', 'TLE': '12.69%', 'WA': '20.15%'}
+readability-misleading-indentation: {'AC': '33.33%', 'RTE': '21.21%', 'TLE': '9.09%', 'WA': '36.36%'}
+readability-qualified-auto: {'TLE': '100.0%'}
+readability-redundant-member-init: {'AC': '100.0%'}
+readability-redundant-string-init: {'AC': '57.14%', 'WA': '42.86%'}
+readability-simplify-boolean-expr: {'AC': '51.61%', 'NO': '1.61%', 'RTE': '8.06%', 'TLE': '11.29%', 'WA': '27.42%'}
+readability-static-accessed-through-instance: {'AC': '60.0%', 'WA': '40.0%'}
+readability-suspicious-call-argument: {'AC': '33.33%', 'TLE': '33.33%', 'WA': '33.33%'}
+readability-use-anyofallof: {'AC': '25.0%', 'RTE': '75.0%'}
