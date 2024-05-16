@@ -1,0 +1,9 @@
+diagnostic,byproblem,bypair,bysubm,bytestcase
+empty,2149,3317,3451,3451
+stack-overflow,9,24,46,70
+heap-buffer-overflow,32,48,85,227
+SEGV,20,41,74,219
+stack-use-after-return,1,1,6,24
+detected memory leaks,1,1,2,8
+heap-use-after-free,2,2,2,2
+global-buffer-overflow,1,1,1,3
