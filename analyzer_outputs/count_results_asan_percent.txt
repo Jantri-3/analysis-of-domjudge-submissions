@@ -3,7 +3,7 @@ detected memory leaks: {'AC': '25.0%', 'NO': '62.5%', 'WA': '12.5%'}
 global-buffer-overflow: {'RTE': '33.33%', 'WA': '66.67%'}
 heap-buffer-overflow: {'AC': '7.93%', 'NO': '0.44%', 'RTE': '50.22%', 'TLE': '7.49%', 'WA': '33.92%'}
 heap-use-after-free: {'RTE': '50.0%', 'WA': '50.0%'}
-stack-overflow: {'AC': '15.71%', 'RTE': '30.0%', 'TLE': '37.14%', 'WA': '17.14%'}
+stack-overflow: {'RTE': '60.87%', 'TLE': '39.13%'}
 stack-use-after-return: {'RTE': '66.67%', 'WA': '33.33%'}
-total by test: {'TLE': '7.96%', 'RTE': '62.21%', 'WA': '23.15%', 'AC': '5.61%', 'NO': '1.08%'}
-total by sub: {'TLE': '14.15%', 'RTE': '62.26%', 'WA': '17.45%', 'AC': '5.66%', 'NO': '0.47%'}
+total by test: {'TLE': '5.34%', 'RTE': '66.6%', 'WA': '22.92%', 'AC': '3.95%', 'NO': '1.19%'}
+total by sub: {'TLE': '8.72%', 'RTE': '72.67%', 'WA': '16.28%', 'AC': '1.74%', 'NO': '0.58%'}

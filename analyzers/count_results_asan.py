@@ -86,11 +86,11 @@ with open('cuentas_asan.csv', 'w') as csvf:
 
         for i in range(len(lista_errors)):
             file.write(lista_errors[i] + ': ' + str(lista_dicts[i]) + '\n')
-        file.write('bytestcase by test: ' + str(byresultwithouterror))
+        file.write('total by test: ' + str(byresultwithouterror))
         s = sum(byresultwithouterror.values())
         byresultwithouterror = \
             {key: str(round((byresultwithouterror[key] * 100.0 / s), 2)) + "%" for key in byresultwithouterror.keys()}
-        file.write('bytestcase by sub: ' + str(bysubmwithouterror))
+        file.write('total by sub: ' + str(bysubmwithouterror))
 
         s = sum(bysubmwithouterror.values())
         bysubmwithouterror = \
@@ -103,5 +103,5 @@ with open('cuentas_asan.csv', 'w') as csvf:
                 {key: str(round((lista_dicts[i][key] * 100.0 / s), 2)) + "%" for key in lista_dicts[i].keys()}
             file.write(lista_errors[i] + ': ' + str(lista_dicts[i]) + '\n')
 
-        file.write('bytestcase by test: ' + str(byresultwithouterror))
-        file.write('bytestcase by sub: ' + str(bysubmwithouterror))
+        file.write('total by test: ' + str(byresultwithouterror))
+        file.write('total by sub: ' + str(bysubmwithouterror))
