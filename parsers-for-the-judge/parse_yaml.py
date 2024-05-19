@@ -2,10 +2,6 @@ import sys
 import yaml
 
 
-def fun(x, y):
-    pass
-
-
 switcher = {'performance-avoid-endl': lambda x, y: avoidendl(x, y),
             'bugprone-narrowing-conversions': lambda x, y: narrow(x, y),
             'performance-for-range-copy': lambda x, y: rangecopy(x, y),
@@ -23,14 +19,15 @@ def avoidendl(num, error_tidy):
         return'Instead of endl you can use "\\n"'
     else:
         return 'Instead of endl you should use "\\n", endl can cause errors as it flushes the output buffer, ' \
-              'it is also less performant, as it makes more unnecessary input operations'
+               'it is also less performant, as it makes more unnecessary input operations '
 
 
 def narrow(num, error_tidy):
     if num == 0:
         return'Try avoiding operating between different types as it can cause unexpected behavior'
     else:
-        return error_tidy['DiagnosticMessage']['Message'], 'this is best avoided as it can lead to unexpected behavior'
+        return error_tidy['DiagnosticMessage']['Message'] + ', this is best avoided as it can lead to unexpected ' \
+                                                            'behavior '
 
 
 def rangecopy(num, error_tidy):
@@ -50,7 +47,7 @@ def valueparam(num, error_tidy):
     elif num == 1:
         return'You should pass arguments of expensive to copy data types by reference instead of copying them'
     else:
-        returnerror_tidy['DiagnosticMessage']['Message']
+        return error_tidy['DiagnosticMessage']['Message']
 
 
 def branchclone(num, error_tidy):
@@ -59,7 +56,7 @@ def branchclone(num, error_tidy):
     elif num == 1:
         return'Be careful with your conditional statements as you might have repeated some branches'
     else:
-        return'Be careful with your conditional statements as you might have repeated some branches' \
+        return'Be careful with your conditional statements as you might have repeated some branches, ' \
               'check if/else and switch statements that you might have copy-pasted'
 
 
@@ -69,8 +66,8 @@ def intdiv(num, error_tidy):
     elif num == 1:
         return'The result of integer division is possibly truncated before conversion'
     else:
-        return'Check your integer divisions as you might be truncating the result before' \
-              'converting to double/float. For example: double d = 3/2 resolves to 1 and then' \
+        return'Check your integer divisions as you might be truncating the result before ' \
+              'converting to double/float. For example: double d = 3/2 resolves to 1 and then ' \
               'it is casted to double, instead of the expected 1.5 you get 1.0'
 
 
@@ -89,12 +86,11 @@ def redund(num, error_tidy):
     if num == 0:
         return'There are redundant conditions in your code'
     else:
-        return'There are redundant conditions in your code, check your conditional statements as you might have' \
+        return'There are redundant conditions in your code, check your conditional statements as you might have ' \
               'copy-pasted something or review the logic for the boolean operators you have used'
 
 
 if __name__ == '__main__':
-    errorsNotFound = True
     tries = int(sys.argv[1])
     with open('clangtidy.yaml', ) as input_file:
         yaml_input = yaml.safe_load(input_file)
@@ -103,9 +99,6 @@ if __name__ == '__main__':
         for error in yaml_input['Diagnostics']:
             function = switcher.get(error['DiagnosticName'])
             if function is not None:
-                if errorsNotFound:
-                    output_file.write('Errors detected by Clang-tidy: \n')
-                    errorsNotFound = False
                 message = function(tries, error)
                 output_file.write('Error ID: ' + error['DiagnosticName'] + '\n')
                 output_file.write('Message: ' + message + '\n')
