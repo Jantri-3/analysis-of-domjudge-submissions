@@ -13,6 +13,7 @@ inDepthInfo = False #Will include the id of the problem the message and if exist
 if tries == 1: 
     information = True
 elif tries > 1:
+    superficialInfo = False
     information = True
     inDepthInfo = True
     
@@ -23,8 +24,6 @@ def parse_log(log_file):
     # We do not check if the file exists as in DOMJudge enviroment this can be taken as granted 
     # Open the output file (append to not overwrite if the other tools output are ran previously to this one)
         with open("teammessage.txt", "a") as output_file: 
-            if src.tell != 0:
-                output_file.write("Errors detected by Ubsan: \n")
             for line in src:
                 if line == '\n':
                     continue
@@ -53,7 +52,8 @@ def parse_log(log_file):
                 
 
                 # Write error information to output file
-                output_file.write(f"Error ID: {error_id}\n")
+                if superficialInfo:
+                    output_file.write(f"Error: {error_id}\n")
                 if inDepthInfo:
                     output_file.write(f"Message: {message}\n")
                 if information:
